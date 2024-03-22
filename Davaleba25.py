@@ -64,7 +64,7 @@
 #     def play_video(self):
 #         pass
 
-#ვარიანტი 2
+# #ვარიანტი 2
 # from abc import ABC, abstractmethod
 
 # class Player(ABC):
@@ -79,13 +79,20 @@
 # class VideoPlayer(Player):
 #     def play(self):
 #         return "Playing video"
+
+# class MultiPlayer(AudioPlayer, VideoPlayer):
+#     def play(self):
+#         return "Playing video and audio"
     
-# # =================================
+# # # =================================
 # audio_player = AudioPlayer()
 # print(audio_player.play())  
 
 # video_player = VideoPlayer()
 # print(video_player.play())  
+
+# multi_player = MultiPlayer()
+# print(multi_player.play())
 
 
 #5 შეცვალეთ კლასის იმპლემენტაცია, რომ დაიცვას დამოკიდებულების ინვერსიის პრინციპი.
